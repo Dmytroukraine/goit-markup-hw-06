@@ -269,39 +269,71 @@
               <li class="footer-head"><h3 class="footer-header">Social media</h3>
 
               <ul class="footer-link">
-    <li class="footer-social">
-     <a href="https://www.instagram.com/';" class="footer-icon">
-        <svg class="ftr-icon" width="40" height="40">
-          <use href ="images/icons.svg#icon-inst-footer"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="footer-social">
-      <a href="https://twitter.com/?lang=ru';" class="footer-icon" >
-        <svg class="ftr-icon" width="40" height="40">
-          <use href ="images/icons.svg#icon-twitter-footer"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="footer-social">
-      <a href="https://www.facebook.com/';" class="footer-icon">
-        <svg class="ftr-icon" width="40" height="40">
-          <use href ="images/icons.svg#icon-facebook-footer"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="footer-social">
-      <a href="https://www.linkedin.com/feed/';" class="footer-icon">
-        <svg class="ftr-icon" width="40" height="40">
-          <use href ="images/icons.svg#icon-linken-footer"></use>
-        </svg>
-      </a>
-    </li>
-  </ul>
-</li>
-</ul>
-</div>
-  
+
+                  <li class="footer-social">
+                   <a href="https://www.instagram.com/';" class="footer-icon">
+                      <svg class="ftr-icon" width="40" height="40">
+                        <use href ="images/icons.svg#icon-inst-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-social">
+                    <a href="https://twitter.com/?lang=ru';" class="footer-icon" >
+                      <svg class="ftr-icon" width="40" height="40">
+                        <use href ="images/icons.svg#icon-twitter-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-social">
+                    <a href="https://www.facebook.com/';" class="footer-icon">
+                      <svg class="ftr-icon" width="40" height="40">
+                        <use href ="images/icons.svg#icon-facebook-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-social">
+                    <a href="https://www.linkedin.com/feed/';" class="footer-icon">
+                      <svg class="ftr-icon" width="40" height="40">
+                        <use href ="images/icons.svg#icon-linken-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+               </ul>
+             </li>
+            <li class="subscribe">
+              <h3 class="subscribe-title">Subscribe</h3>
+              
+              <form class="js-speaker-form">
+                <div class="sbs block">
+                <label for="" class="lb-ftr">
+                   <input type="email" name="email" placeholder="E-mail" class="in-mail">
+                 </label>
+                  <button type="subscribe" class="btn-sbs"><span class="btn-txt"> Subscribe</span>
+                   <svg class="sbs-logo" width="24" height="24">
+                     <use href="./images/icons.svg#icon-sbs-footer"></use>
+                   </svg>
+                  </button>
+                </div>
+              </form>
+            </li>
+         </ul>
+      </div>
+ 
     </footer>
+    
+    <script src="./js/modal.js">
+      (()=> {
+        document
+        .querySelector('.js-speaker-form')
+        .addEventListener('submit', e=> {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) =>
+          console.log('${name}: ${value}'),
+          );
+        });
+      })();
+    </script>
+
   </body>
 </html>
