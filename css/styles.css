@@ -607,7 +607,12 @@ body {color:var(--primary-text-color);
 .footer-icon:hover, .footer-icon:focus {background-color: #31D0AA;
                     transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
+ .btn.sbs {background-color:tomato;
+              width: 168px;
+              height: 40px}; 
+
 /* hiden title */
 
 .hide {display: none;
-       transition: all ease 0.8s;}    
+       transition: all ease 0.8s;}   
+ 
