@@ -185,7 +185,7 @@ body {color:var(--primary-text-color);
          left: 50%;
          transform: translate(-50%, -50%); 
          width: 408px;
-         height: 576px;
+         height: 579px;
          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
          0px 1px 3px rgba(0, 0, 0, 0.12), 
          0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -223,11 +223,17 @@ body {color:var(--primary-text-color);
 
 
 
-.group-header {font-weight: 600;
+.group-header {width: 360px;
+               height: 24px;
+               font-weight: 600;
+               font-size: 16px;
+               line-height: 1.5;
                text-align: center;
                letter-spacing: 0.02em;
                color: var(--title-text-color);
                margin-top: 72px;
+               margin-left: 24px;
+               margin-right: 24px;
                margin-bottom: 16px;}
 
 .group-in {gap: 8px;}
