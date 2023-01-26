@@ -284,14 +284,11 @@ body {color:var(--primary-text-color);
 
 .check {margin-bottom: 24px;}
 
-          
-       
-.input:hover, .input:focus, .input-group:hover .input {outline: none;
-                                                       border-color:var(--accent-color);}
-.comment:hover, .comment:focus {outline: none; 
-                                border-color:var(--accent-color);}
-                  
+.input:focus + .label {color:var(--accent-color);}          
+.input:hover + .label {color:var(--accent-color);}   
 
+.input:hover {border:1px solid var(--accent-color);}
+ 
 /* button */
 
 
