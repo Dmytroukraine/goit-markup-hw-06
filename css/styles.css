@@ -298,6 +298,48 @@ body {color:var(--primary-text-color);
 
 textarea {resize: none;} 
 
+form {width: 408px;
+       height: 579px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;}
+
+.form-group {margin-bottom: 8px;
+                display: flex;
+                flex-direction: column;}
+
+.form-group label {margin-bottom: 4px;
+                   text-align: left;
+                   font-size: 12px;
+                   line-height: 1.1;
+                   letter-spacing: 0.01em;
+                   color: #8E8F99;}
+
+.form-group input {border: 1px solid rgba(33, 33, 33, 0.2);
+                   border-radius: 4px;
+                        width: 360px;
+                        height: 40px;}
+
+.form-group textarea {border: 1px solid rgba(33, 33, 33, 0.2);
+                      border-radius: 4px;}                   
+
+.form-group::placeholder {font-size: 12px;
+                          line-height: 1.1;
+                          letter-spacing: 0.01em;
+                          color: rgba(117, 117, 117, 0.5);}
+
+.form-group input[type="checkbox"] {width: 16px;
+                                    height: 16px;
+                                    border: 1.25px solid #2E2F42;
+                                    border-radius: 2px;
+                                    margin-top: 16px;}
+                                    
+.form-group label[class="form area"] {font-size: 12px;
+                                      line-height: 1.3;
+                                      letter-spacing: 0.04em;
+                                      color: #757575;}                                   
 
 /* button */
 
