@@ -236,64 +236,8 @@ body {color:var(--primary-text-color);
                margin-right: 24px;
                margin-bottom: 16px;}
 
-/* bad variant */
 
-
-/* .js-speaker-form {display: inline-block;
-           flex-direction: column;
-           align-items: flex-start;
-           
-           gap: 8px;
-           width: 360px;
-           height: 280px;
-           border-radius: 4px;
-           margin-left: auto;
-           margin-right: auto;}
-
-.input-group {position: relative;
-              margin-bottom: 8px;
-              width: 100%;
-              height: 40px;
-              margin-left: auto;
-              margin-right: auto;} 
-
-.label {position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 12px;
-        line-height: 1.1;
-        letter-spacing: 0.01em;
-        color: #8E8F99;
-        transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;}
-
-.input {width: 100%;
-        height: 40px;
-        background-color:#FCFCFC;
-        border-radius: 4px;
-        border: 1px solid rgba(33, 33, 33, 0.2);} 
-       
-.input-comment {width: 100%;
-          height: 120px;
-          background-color:#FCFCFC;
-          border-radius: 4px;
-          
-          border: 1px solid rgba(33, 33, 33, 0.2);}
-           
-          
-::placeholder {padding-top: 8px;
-               line-height: 1.1;
-               letter-spacing: 0.01em;
-               color: rgba(117, 117, 117, 0.5);}
-
-.check {margin-bottom: 24px;}
-
-.input:focus + .label {color:var(--accent-color);}          
-.input:hover + .label {color:var(--accent-color);}   
-
-.input:hover {border:1px solid var(--accent-color);} */
-
-
-/* new variant */
+/* input variant */
 
 
 textarea {resize: none;} 
@@ -317,7 +261,7 @@ textarea {resize: none;}
                    letter-spacing: 0.01em;
                    color: #8E8F99;}
 
-.form-group input {border: 1px solid rgba(33, 33, 33, 0.2);
+.form-input {border: 1px solid rgba(33, 33, 33, 0.2);
                    border-radius: 4px;
                    width: 360px;
                    height: 40px;
@@ -331,12 +275,6 @@ textarea {resize: none;}
                           letter-spacing: 0.01em;
                           color: rgba(117, 117, 117, 0.5);}
 
-.form-group input[type="checkbox"] {width: 16px;
-                                    height: 16px;
-                                    border: 1.25px solid #2E2F42;
-                                    border-radius: 2px;
-                                    margin-top: 16px;}
-                                    
 .form-group label[class="form-area"] {font-size: 12px;
                                       line-height: 1.3;
                                       letter-spacing: 0.04em;
@@ -358,27 +296,41 @@ textarea {resize: none;}
                                     transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .form-logo.name {position: absolute;
+                 top: 26px;
+                 left: 16px;
+                 display: inline-block;
+                 fill:var(--title-text-color);}
+
+.form-logo.tel {position: absolute;
                 top: 26px;
                 left: 16px;
                 display: inline-block;
-                fill:var(--title-text-color);}
-
-.form-logo.tel {position: absolute;
-        top: 26px;
-        left: 16px;
-        display: inline-block;
-        fill:var(--title-text-color);} 
+                fill:var(--title-text-color);} 
                         
 .form-logo.email {position: absolute;
-        top: 26px;
-        left: 16px;
-        display: inline-block;
-        fill:var(--title-text-color);}                        
+                  top: 26px;
+                  left: 16px;
+                  display: inline-block;
+                  fill:var(--title-text-color);}                        
 
 .form-input:hover + .form-logo {fill: var(--accent-color);
                                 transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}                
 .form-input:focus + .form-logo {fill: var(--accent-color);
                                 transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+.form-group input[type="checkbox"] {width: 16px;
+                                    height: 16px;
+                                    margin-top: 16px;}
+
+.form-box {width: 338px;
+           font-size: 12px;
+           line-height: 1.3;
+           letter-spacing: 0.04em;
+           color: #757575;}
+
+.policy {text-decoration: none;
+         color: var(--accent-color);} 
+         
 
 /* button */
 
