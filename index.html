@@ -56,56 +56,50 @@
            <svg class="cross" width="24" height="24">
             <use href="./images/icons.svg#icon-close"></use>
            </svg></button> 
+
         <h3 class="group-header">Leave your contacts and we will call you back</h3>
 
-          <form class="group-in">
-            
+          <form class="js-speaker-form">
             
             <div class="input-group">
 
-              <input autocomplete="off" name="name" class="input" type="name" id="name"/>
-              
               <label for="name" class="label">Name</label>
+              <input type="name" id="name" name="name" class="input"/>
+                            
             </div>
 
             <div class="input-group">
 
-              <input autocomplete="off" name="phone" class="input" type="phone" id="phone"/>
-
-              <label for="phone" class="label">Phone</label>  
+              <label for="tel" class="label">Phone</label>
+              <input type="tel" id="tel" name="tel" class="input" />
                         
             </div> 
 
             <div class="input-group">
 
-              <input autocomplete="off" name="email" class="input" type="email" id="email"/>
-
-                <label for="email" class="label">Email</label>
+              <label for="email" class="label">Email</label>
+              <input type="email" id="email" name="email" class="input" />
 
            </div>
 
-            <div class="input-group">
-
-              <input autocomplete="off" name="comment" class="input-comment" type="comment" id="comment"/>
-
-              <label for="comment" class="label">Comment</label>
-
-            </div>
-
-            </form>
-
-          <form action="">
+           <label for="com" class="comment">Comment</label>
+           <textarea name="comment" id="com" rows="10" placeholder="Text input"></textarea>
 
             <div class="input-group">
               
-                <input type="checkbox" name="privacy policy" class="check">
-                I accept the terms and conditions of the <a href=""> <span>Privacy Policy</span></a> 
+                <input type="checkbox" id="checkbox" value="privacy policy" name="privacy policy" class="check">
+                <label for="checkbox">I accept the terms and conditions of the <a href=""> <span>Privacy Policy</span></a></label>
+                 
                          
             </div>
 
+            <div class="input-group"> 
+
             <button type="submit">Send</button>
 
-        </form>
+            </div>
+
+       </form>
       
           
          </div>

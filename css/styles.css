@@ -236,7 +236,10 @@ body {color:var(--primary-text-color);
                margin-right: 24px;
                margin-bottom: 16px;}
 
-.group-in {display: inline-block;
+/* bad variant */
+
+
+/* .js-speaker-form {display: inline-block;
            flex-direction: column;
            align-items: flex-start;
            
@@ -287,8 +290,15 @@ body {color:var(--primary-text-color);
 .input:focus + .label {color:var(--accent-color);}          
 .input:hover + .label {color:var(--accent-color);}   
 
-.input:hover {border:1px solid var(--accent-color);}
- 
+.input:hover {border:1px solid var(--accent-color);} */
+
+
+/* new variant */
+
+
+textarea {resize: none;} 
+
+
 /* button */
 
 
