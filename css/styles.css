@@ -194,7 +194,7 @@ body {color:var(--primary-text-color);
          0px 1px 3px rgba(0, 0, 0, 0.12), 
          0px 2px 1px rgba(0, 0, 0, 0.2);
          border-radius: 4px;
-         background-color: var(--other-background-color);
+         background-color:#FCFCFC;
          transform: translate(-50%, -50%)  scale(1);
          transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
@@ -813,7 +813,8 @@ textarea {resize: none;}
           border-radius: 4px;
           width: 264px;
           height: 40px;
-          outline: none;}  
+          outline: none;
+          padding-left: 16px;}  
 
 .in-mail:hover, .in-mail:focus {color:var(--accent-color);
                                 border: 1px solid var(--accent-color);
