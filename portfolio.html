@@ -305,10 +305,10 @@
               
               <form class="js-speaker-form">
                 <div class="sbs block">
-                <label for="" class="lb-ftr">
-                   <input type="email" name="email" placeholder="E-mail" class="in-mail">
+                <label for="sbs-mail" class="lb-ftr">
+                   <input type="email" name="email" placeholder="E-mail" class="in-mail" id="sbs-mail">
                  </label>
-                  <button type="subscribe" class="btn-sbs"><span class="btn-txt"> Subscribe</span>
+                  <button type="submit" class="btn-sbs"><span class="btn-txt"> Subscribe</span>
                    <svg class="sbs-logo" width="24" height="24">
                      <use href="./images/icons.svg#icon-sbs-footer"></use>
                    </svg>
@@ -321,19 +321,6 @@
  
     </footer>
     
-    <script src="./js/modal.js">
-      (()=> {
-        document
-        .querySelector('.js-speaker-form')
-        .addEventListener('submit', e=> {
-          e.preventDefault();
-
-          new FormData(e.currentTarget).forEach((value, name) =>
-          console.log('${name}: ${value}'),
-          );
-        });
-      })();
-    </script>
-
+    <script src="./js/modal.js"></script>
   </body>
 </html>
