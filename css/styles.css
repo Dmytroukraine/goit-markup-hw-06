@@ -798,7 +798,7 @@ textarea {resize: none;}
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color:var(--second-text-color);
-                  padding-bottom: 16px;}  
+                  margin-bottom: 16px;}  
 
 .btn-txt {font-weight: 700;
           display: flex;
